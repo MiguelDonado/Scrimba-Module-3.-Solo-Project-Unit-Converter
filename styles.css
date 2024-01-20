@@ -1,0 +1,85 @@
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    font-family: inter;
+    margin:0px;
+    background-color: #1F2937;
+ }
+
+#input-section {
+    background-color: #6943FF;
+    color: #FFFFFF;
+    height:300px;
+    padding-bottom: 40px;
+    }
+
+#title {
+    padding: 30px 0px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#input-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#number-input {
+    width: 150px;
+    height: 110px;
+    border: 3px solid #B295FF;
+    background-color: #6943FF;
+    border-radius: 5px;
+    font-size: 58px;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color:#3D3D3D;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#output-section {
+    padding: 1px 25px;
+}
+
+.unit-section{
+    background-color: #273549;
+    height: 90px;
+    margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit-title{
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 550;
+}
