@@ -69,17 +69,29 @@ input::-webkit-inner-spin-button {
 
 .unit-section{
     background-color: #273549;
-    height: 90px;
+    height: 110px;
     margin: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .unit-title{
     color: #CCC1FF;
     font-size: 20px;
     font-weight: 550;
+    border: 3px solid white;
+    margin: 0;
+    padding: 0;
+}
+
+.unit-conversion{
+    color: white;
+    border: 3px solid white;
+    margin: 20px 0 0 0;
+    padding: 0;
+    font-size: 12px;
 }
